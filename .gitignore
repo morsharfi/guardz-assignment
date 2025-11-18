@@ -1,0 +1,61 @@
+# Node
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Build outputs
+dist/
+build/
+out/
+*.log
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Cache
+.cache/
+.vite/
+.tmp/
+.eslintcache
+jest-cache/
+jest-test-results.json
+
+# Frontend build
+frontend/dist/
+frontend/node_modules/
+
+# Backend build
+backend/dist/
+backend/node_modules/
+
+# Editor / OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Cursor AI temp
+.cursor/
+.cursor-backups/
+
+# Docker
+docker-compose.override.yml
+docker-data/
+*.pid
+
+# Logs
+logs/
+*.log
+logs/**/*.log
+
+# TypeScript
+*.tsbuildinfo
+
+# Coverage
+coverage/
