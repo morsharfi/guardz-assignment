@@ -119,8 +119,4 @@ docker-compose.yml
 * Tests included (unit + e2e)
 * Deployed on GCP VM
 * Public GitHub repository
-* Clean, simple user experience
-
-## 💬 אם תרצי —
-
-אני יכולה לכתוב גם גרסת README **קצרה מאוד** (10 שורות), או גרסה **מעוצבת יותר**, או לגרום לזה להיראות אפילו “יותר בכיר”.
+* Clean, simple user experience.
