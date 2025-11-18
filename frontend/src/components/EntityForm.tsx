@@ -33,6 +33,7 @@ export const EntityForm: React.FC<EntityFormProps> = ({
             value={name}
             onChange={(e) => setName(e.target.value)}
             placeholder="Full name"
+            required
           />
         </label>
         <label>
@@ -42,6 +43,7 @@ export const EntityForm: React.FC<EntityFormProps> = ({
             onChange={(e) => setEmail(e.target.value)}
             placeholder="email@example.com"
             type="email"
+            required
           />
         </label>
         <label>
@@ -52,6 +54,7 @@ export const EntityForm: React.FC<EntityFormProps> = ({
             placeholder="Optional"
             type="number"
             min="0"
+            max="150"
           />
         </label>
         <div className="button-wrapper">

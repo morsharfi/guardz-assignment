@@ -27,7 +27,7 @@ describe('Entities API (e2e)', () => {
       age: 27,
     };
 
-    // שליחת הישות
+    // Create entity via POST
     const postRes = await request(app.getHttpServer())
       .post('/api/entities')
       .send(payload)
@@ -38,7 +38,7 @@ describe('Entities API (e2e)', () => {
     expect(postRes.body.email).toBe(payload.email);
     expect(postRes.body.age).toBe(payload.age);
 
-    // בקשת GET ובדיקה שהישות קיימת ברשימה
+    // Verify entity exists via GET
     const getRes = await request(app.getHttpServer())
       .get('/api/entities')
       .expect(200);

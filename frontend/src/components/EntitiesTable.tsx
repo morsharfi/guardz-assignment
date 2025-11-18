@@ -28,7 +28,7 @@ export const EntitiesTable: React.FC<EntitiesTableProps> = ({ entities }) => {
             <td>{e.name}</td>
             <td>{e.email}</td>
             <td>{e.age ?? ''}</td>
-            <td>{e.createdAt}</td>
+            <td>{new Date(e.createdAt).toLocaleString()}</td>
           </tr>
         ))}
       </tbody>
